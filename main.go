@@ -6,8 +6,7 @@ import (
 	"github.com/dsa0x/geozeug/pkg/geohash"
 )
 
-
-func main()  {
-	fmt.Println(geohash.Encode(52,34,6))
+func main() {
+	fmt.Println(geohash.Encode(52, 34, 6))
 	fmt.Println(geohash.Decode("uc0pvd"))
 }
