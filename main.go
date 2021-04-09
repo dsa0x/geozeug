@@ -8,5 +8,6 @@ import (
 
 
 func main()  {
-	fmt.Println(geohash.Decode("u61jtd3kzv1p"))
+	fmt.Println(geohash.Encode(52,34,6))
+	fmt.Println(geohash.Decode("uc0pvd"))
 }
